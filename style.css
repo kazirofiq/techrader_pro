@@ -1,11 +1,14 @@
-.text-castom{
-    font-size: 80px;
-    font-weight: 700;
-    color: #FA804C;
+..carousel-item{
+    background-size: cover;
 }
-.text_span_castom{
-    color: #363958;
-}
-.header_background{
-    background-color: #FFF9F4;
+.carousel-item::before{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+
 }
